@@ -15,7 +15,7 @@ public class JustTest extends BaseTest {
         new LoginPage().signWithGoogle();
         GoogleAuthForm googleAuthForm = new GoogleAuthForm();
         TabNavigation.navigate();
-        googleAuthForm.loginByGoogle("sergey@billmybank.com", "5604215deZ");
+        googleAuthForm.loginByGoogle("", "");
         TabNavigation.switchToFirstTab();
         AccountsPage accountsPage = new AccountsPage();
         Assert.assertTrue(accountsPage.state().waitForDisplayed(), "Accounts page is not displayed");
