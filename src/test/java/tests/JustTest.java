@@ -1,6 +1,5 @@
 package tests;
 
-import aquality.selenium.browser.AqualityServices;
 import forms.GoogleAuthForm;
 import org.testng.Assert;
 import org.testng.annotations.Test;

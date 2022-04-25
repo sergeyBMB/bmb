@@ -13,4 +13,17 @@ public class Environment {
     public static String getBaseUrl() {
         return ENVIRONMENT_SETTINGS_FILE.getValue("/baseUrl").toString();
     }
+
+    public static String getGoogleApiKey() {
+        return ENVIRONMENT_SETTINGS_FILE.getValue("/googleApiKey").toString();
+    }
+
+    public static String getGoogleServiceUrl() {
+        return ENVIRONMENT_SETTINGS_FILE.getValue("/service/google/url").toString();
+    }
+
+    public static String getBillMyBankServiceUrl() {
+        return ENVIRONMENT_SETTINGS_FILE.getValue("/service/billmybank/url").toString();
+    }
+
 }

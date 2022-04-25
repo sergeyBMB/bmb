@@ -1,3 +1,13 @@
 {
-  "baseUrl": "https://console-dev.billmybank.com"
+  "baseUrl": "https://console-dev.billmybank.com",
+  "googleApiKey" : "AIzaSyDNf6olSwxeqIQzIzIiTtuIzsxHX7hkFhU",
+  "service": {
+    "google": {
+      "url": "https://identitytoolkit.googleapis.com/v1"
+    },
+    "billmybank": {
+      "url": "https://api-dev.billmybank.com/api"
+    }
+  },
+  "idToken" : "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImM2NzNkM2M5NDdhZWIxOGI2NGU1OGUzZWRlMzI1NWZiZjU3NTI4NWIiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiVmxhZCIsImF1dGgiOiJPUFNfQURNSU4iLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYmlsbG15YmFuayIsImF1ZCI6ImJpbGxteWJhbmsiLCJhdXRoX3RpbWUiOjE2NTA5MDc4ODQsInVzZXJfaWQiOiIwWDJWOE5BS1FwUmQ1akNGTVFyMnQ2QUkxQUcyIiwic3ViIjoiMFgyVjhOQUtRcFJkNWpDRk1RcjJ0NkFJMUFHMiIsImlhdCI6MTY1MDkwNzg4NCwiZXhwIjoxNjUwOTExNDg0LCJlbWFpbCI6InZsYWQuZkBiaWxsbXliYW5rLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJ2bGFkLmZAYmlsbG15YmFuay5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.S_xA0kupA0Kp4_YGrSsmY8r70qggtIvW42yJaxvQVxxlJq16E8D-f2uErzxHeo3Yk7lDDBqA9FAJLAChUCOpUwTy8PVZC-AFz-J0unamtyFrjvCRzvxIk7rJ1hL46cEU4_BcB6Fhga3-16_8Fo8GLA2CiAqvcg7hkp_AcWXJoyozh-Uxrbq2FjVJkJjGIVNQ0GzgSGsWEaKOSL_DC9TPnDsXBV1h--WVnS12ga1yEL1KYfGbCWuvqSaapimcOjalWHjumvDaj8_0Ftei3vZv6KiWlfYmDE73iz_XNgrQmZsv6Pkj-5ZAEEDkeviTS846s-I-5JWr79Z4Rdv2u8ngGw"
 }
